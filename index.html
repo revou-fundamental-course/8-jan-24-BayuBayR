@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Kalkulator Luas & Keliling Persegi</title>
+</head>
+
+<body>
+  <div class="calculator">
+    <img src="logo.webp" alt="Deskripsi Gambar">
+    <h1>Kalkulator</h1>
+    <h2>Hitung Luas & Keliling Persegi</h2>
+
+    <label for="sideLength">Panjang Sisi:</label>
+    <input type="number" id="sideLength" placeholder="Masukkan panjang sisi">
+
+    <label>
+      <input type="radio" name="calculationType" value="luas" checked> Hitung Luas
+    </label>
+    <label>
+      <input type="radio" name="calculationType" value="keliling"> Hitung Keliling
+    </label>
+
+    <button onclick="calculate()">Hitung</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="js/logic.js"></script>
+</body>
+
+</html>

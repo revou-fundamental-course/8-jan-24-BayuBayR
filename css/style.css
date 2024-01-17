@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #000000, rgb(240, 212, 0));
+    background-size: 100% 300%;
+    animation: gradient-animation 5s infinite alternate;
+  }
+  
+  @keyframes gradient-animation {
+    to {
+      background-position: 0 100%;
+    }
+  }
+  
+  .calculator {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 1.5em;
+  }
+  
+  label {
+    display: inline-flex;
+    margin: 20px 0;
+    color: #202020;
+  }
+  
+  input {
+    padding: 20px;
+    margin: 5px;
+    width: 100%;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    padding: 15px;
+    margin: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(240, 212, 0);
+    color: #1b1b1b;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #fff700;
+  }
+  
+  #result {
+    margin-top: 20px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 1.3em;
+  }
+  
